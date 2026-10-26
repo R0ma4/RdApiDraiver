@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Debug\\DSL_Engin.obj",
+            "outputs": [
+                "x64\\Debug\\DSL_Engin.h.obj.dt.module.json",
+                "x64\\Debug\\DSL_Engin.h.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}

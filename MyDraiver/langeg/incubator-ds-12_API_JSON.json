@@ -1,0 +1,96 @@
+{
+    "incubator-ds-12":{
+        "version": "alfa 1.0",
+        "draiver_version": "oct-1",
+        "name": "incubator-ds-12",
+        "moduls":{
+
+        }
+    },
+
+    "eggis": [
+      {
+        "id": 1,
+        "user_using_id": [ -1 ],
+        "name_egis": "not font",
+        "type": "chiken",
+        "open_date": "25-10-2026",
+        "rolus": "not font"
+      },
+      {
+        "id": 2,
+        "user_using_id": [ -1 ],
+        "name_egis": "not font",
+        "type": "chiken",
+        "open_date": "25-10-2026",
+        "rolus": "not font"
+      },
+      {
+        "id": 3,
+        "user_using_id": [ -1 ],
+        "name_egis": "not font",
+        "type": "chiken",
+        "open_date": "25-10-2026",
+        "rolus": "not font"
+      },{
+        "id": 4,
+        "user_using_id": [ -1 ],
+        "name_egis": "not font",
+        "type": "chiken",
+        "open_date": "25-10-2026",
+        "rolus": "not font"
+      }
+    ],
+
+    "user_card": [
+      {
+        "id": 1,
+        "name": "Света",
+        "lastname": "Малиновна",
+        "Secendname": "Анигеево",
+        "are": 23,
+        "height": 178,
+        "weight": 45.1,
+        "bosdey": "25-10-2026",
+        "sex": "gilrs",
+        "femely_status": "mather"
+      },
+      {
+        "id": 2,
+        "name": "Антон",
+        "lastname": "Малинов",
+        "Secendname": "нет",
+        "are": 25,
+        "height": 198,
+        "weight": 65.4,
+        "bosdey": "05-12-2026",
+        "sex": "man",
+        "femely_status": "fasther"
+      },
+      {
+        "id": 3,
+        "name": "Карина",
+        "lastname": "Малиновна",
+        "Secendname": "Атовнана",
+        "are": 13,
+        "height": 138,
+        "weight": 45.1,
+        "bosdey": "11-11-2026",
+        "sex": "gilrs",
+        "femely_status": "liser doca"
+      },
+      {
+        "id": 4,
+        "name": "Света",
+        "lastname": "Малиновна",
+        "Secendname": "Анигеево",
+        "are": 15,
+        "height": 148,
+        "weight": 55.5,
+        "bosdey": "12-03-2026",
+        "sex": "man",
+        "femely_status": "liser son"
+      }
+    ]
+
+}

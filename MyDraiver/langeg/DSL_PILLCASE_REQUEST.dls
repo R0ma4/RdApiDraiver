@@ -1,0 +1,27 @@
+-- Полный и примерный скрипт-запрос для работы с API дивайсами на версию Oct-1
+-- 
+-- Подключение выдаёт роль 'User' при успешном подключении
+conect incubator-ds-12 passwword admin trust true
+GO
+display COINT(moduls) from  Devaise.Serves(431.321.12.1:54122/api/json,decoding('A12'))
+GO
+-- создание переменной
+cerate value host = Devaise.Serves(431.321.12.1:54122/api/json,decoding('A12'))
+GO
+-- Выведет количесво пользователей у который Id больше 2 
+display COINT(user_card) as 'Users' 
+from host
+join incubator-ds-12.yceika-1.id = incubator-ds-12.user_card.id
+where user_card.id > 2
+-- дополнительые функции для display / PRINT / IF / SWICH
+-- IS_VALUE(value1, value2) -> вернёть true если value1 = value2 или имеют общий тип (к примеру как true и 1, что по сути одно и тоже) во всех иных случиях false. Пример: IS_VALUE(false, 0), IS_VALUE(' ', " "),  IS_VALUE(' ', '\s') вернут true,  IS_VALUE(false, 1) - вернёт false 
+-- COINT(value) -> вернёть количество (value) 
+-- 
+--
+--
+GO
+PRINT host
+
+
+-- полное отключение, не важно что драйвер обробатывал или читал. всё обрываеться, сбрасываеться, отключаеться.
+Trust_End
